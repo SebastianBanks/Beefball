@@ -1,0 +1,1043 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "NamedObjects": [
+    {
+      "InstanceName": "PlayerBallList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "SortAxis",
+          "Value": 0
+        },
+        {
+          "Name": "PartitionWidthHeight",
+          "Value": 32.0
+        },
+        {
+          "Name": "IsSortListEveryFrameChecked",
+          "Value": true
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.PositionedObjectList<T>",
+      "SourceClassGenericType": "Entities\\PlayerBall",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "PlayerBall1",
+          "SourceClassType": "Entities\\PlayerBall",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "MovementSpeed",
+              "Value": 350.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -180.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "PlayerBall2",
+          "SourceClassType": "Entities\\PlayerBall",
+          "Properties": [
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 180.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "CircleInstanceColor",
+              "Value": "Cyan",
+              "Time": 0.0
+            },
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "CooldownCircleColor",
+              "Value": "Cyan",
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "PuckList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "SortAxis",
+          "Value": 0
+        },
+        {
+          "Name": "PartitionWidthHeight",
+          "Value": 32.0
+        },
+        {
+          "Name": "IsSortListEveryFrameChecked",
+          "Value": true
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\Puck",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "Puck1",
+          "SourceClassType": "Entities\\Puck",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [],
+          "SourceType": 1,
+          "SourceFile": "Entities\\Puck",
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "GoalList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "SortAxis",
+          "Value": 0
+        },
+        {
+          "Name": "PartitionWidthHeight",
+          "Value": 32.0
+        },
+        {
+          "Name": "IsSortListEveryFrameChecked",
+          "Value": true
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\Goal",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "LeftGoal",
+          "SourceClassType": "Entities\\Goal",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -410.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "SourceFile": "Entities\\Goal",
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "RightGoal",
+          "SourceClassType": "Entities\\Goal",
+          "Properties": [
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 410.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 1,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "Walls",
+      "SourceClassType": "FlatRedBall.Math.Geometry.ShapeCollection",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "Shape Collection (.shcx)",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "Wall1",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 800.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 300.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "Wall2",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 800.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -300.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "Wall3",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -400.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "Wall4",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 400.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "Wall5",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -400.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "Wall6",
+          "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "Width",
+              "Value": 30.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Height",
+              "Value": 200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -200.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 400.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "AxisAlignedRectangle",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "PlayerBallListVsWalls",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.PlayerBall>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "Walls",
+          "Type": "String"
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 0.5
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.PlayerBall>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PuckListVsWalls",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.Puck>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PuckList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "Walls",
+          "Type": "String"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.Puck>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PlayerBallListVsPuckList",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.Puck>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "PuckList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 0.3
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 0.5
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.Puck>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PlayerBallListVsPlayerBallList",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.PlayerBall>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.PlayerBall>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PlayerBallListVsGoalList",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.Goal>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "GoalList",
+          "Type": "String"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.Goal>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PuckListVsGoalList",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Puck, Entities.Goal>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PuckList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "GoalList",
+          "Type": "String"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "SecondSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Puck, Entities.Goal>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "ScoreHUD1",
+      "SourceClassType": "Entities\\ScoreHUD",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 1,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 1,
+      "SourceFile": "Entities\\ScoreHUD",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    }
+  ],
+  "Name": "Screens\\GameScreen",
+  "Events": [
+    {
+      "EventName": "PuckListVsGoalListCollisionOccurred",
+      "SourceObject": "PuckListVsGoalList",
+      "SourceObjectEvent": "CollisionOccurred",
+      "DelegateType": ""
+    }
+  ],
+  "CustomClassesForExport": []
+}
